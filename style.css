@@ -1,0 +1,199 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700&display=swap');
+
+.relative {
+    position: relative;
+}
+
+.navigation {
+    margin: 50px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+body {
+    font-family: 'Mulish';
+}
+.navigation__item {
+    margin: 0 20px;
+    color: rgba(31, 21, 52, .5);
+    transition: color .2s;
+}
+.navigation__item:hover {
+    text-decoration: none;
+    color: black;
+}
+.navigation__item:last-child {
+    margin-right: 0;
+}
+.navigation__item--active {
+    color: black;
+}
+.hero {
+    background-image: url('./dots.svg');
+    background-repeat: no-repeat;
+}
+.heading {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+}
+.paragraph {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    color: #7D7987;
+}
+.hero__image {
+    padding-bottom: 90px;
+}
+.button {
+    background-color: #458FF6;
+    border-radius: 55px;
+    padding: 20px 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 60px;
+    color: white;
+    transition: all .2s;
+}
+.button:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(214, 221, 228);
+    background-color: #3872c4;
+}
+.horizontal-line {
+    margin: 26px auto 33px auto;
+    width: 56px;
+    height: 2px;
+    border-radius: 5px;
+    background-color: black;
+}
+.testimonials__slider {
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+}
+.testimonials__heading {
+    text-align: center;
+    color: white;
+    padding: 64px 0;
+    padding-bottom: 0;
+}
+.testimonials__horizontal-line {
+    background-color: white;
+    margin: 25px auto
+}
+.testimonials__main-content-wrapper {
+    display: flex;
+}
+.testimonials__person-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 51px;
+}
+.testimonials__paragraph-wrapper {
+    margin: 51px;
+    display: flex;
+    align-items: center;
+}
+.testimonials__person-avatar-wrapper {
+    margin: 29px;
+}
+.personal-info {
+    text-align: left;
+}
+.testimonials__person-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 48px;
+    color: rgba(255, 255, 255, 0.85);
+    white-space: nowrap;
+    margin-bottom: -14px;
+}
+.testimonials__person-occupation {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 48px;
+    color: rgba(255, 255, 255, 0.85);
+}
+.testimonials__paragraph {
+    margin-left: 118px;
+    text-align: left;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.9);
+}
+.testiomonials__slider-menu {
+    margin-top: 650px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.testiomonials__arrow {
+    padding: 0 92px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+.testiomonials__arrow:hover {
+    opacity: 0.3;
+}
+.ball-container {
+    display: flex;
+}
+.testiomonials__slider-menu-ball {
+    opacity: .3;
+    width: 10px;
+    height: 10px;
+    background-color: #5B9BF3;
+    border-radius: 50%;
+    margin: 0 9px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.active {
+    opacity: 1;
+}
+
+.margin--bottom--16 {
+    margin-bottom: 16px;
+}
+.margin--bottom--25 {
+    margin-bottom: 25px;
+}
+.margin--bottom--45 {
+    margin-bottom: 45px;
+}
+.margin--bottom--80 {
+    margin-bottom: 80px;
+}
+.margin--bottom--37 {
+    margin-bottom: 37px;
+}
+.margin--bottom--220 {
+    margin-bottom: 220px;
+}
+.testimonials__slider-wrapper {
+    z-index: -1;
+    position: absolute;
+    display: none;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+   
+}
+.testimonials__slider-wrapper.active {
+    display: block;
+}
+
+.animate__fadeInLeftBig, .animate__fadeOutLeftBig , .animate__fadeOutRightBig, .animate__fadeInRightBig {
+    animation-duration: .4s;
+}
